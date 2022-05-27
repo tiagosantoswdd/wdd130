@@ -9,12 +9,18 @@ nav a
 main section {
     text-align: center;
 }
+main section img {
+    box-sizing: border-box;
+}
 #background {
     height: 725px;
 }
 body {
     font-family:"Roboto";
-    background-color: #fcfbfb; 
+    font-size: 22px;
+    background-color: #fcfbfb;
+    margin: 0;
+    padding: 0; 
 }
 header {
     background-color:rgba(20,30,13, .7);
@@ -27,6 +33,10 @@ nav a:hover {
     background-color: #fcfbfb ;
     color:#d9c2a3;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover,.join:hover {
     background-color: black;
@@ -42,6 +52,18 @@ nav a:hover {
 .msg h2 {
     font-family: "Rock Salt";
 }
+.msg p {
+    font-size: 8em;
+    padding-bottom: 15px;
+}
+.msg {
+    background-color: #6f7364;
+    line-height: 1.5em;
+    padding: 35px;
+}
+h2 {
+    margin: 0;
+}
 footer, footer h3, footer a, footer a:hover {
     background-color: grey ;
     color: #d9c2a3;
@@ -49,10 +71,13 @@ footer, footer h3, footer a, footer a:hover {
 nav a {
     color: rgba(20,30,13, .7);
     text-decoration: none;
+    padding: 35px;
 }
 .home-title {
     color: #d9c2a3;
     font-family: "Rock Salt";
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
     color: #d9c2a3;
@@ -68,4 +93,23 @@ footer a {
 }
 footer h3 a:hover {
     text-decoration: underline;
+}
+#logo_link {
+    padding-top: 5px;
+}
+.icon {
+    padding-top: 10px;
+}
+footer {
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px, solid, #134266;
 }
