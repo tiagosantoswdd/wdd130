@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rock+Salt&display=swap');
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -12,6 +13,7 @@ main section {
     height: 725px;
 }
 body {
+    font-family:"Roboto";
     background-color: #fcfbfb; 
 }
 header {
@@ -37,6 +39,9 @@ nav a:hover {
     background-color: black ;
     color: #d9c2a3;
 }
+.msg h2 {
+    font-family: "Rock Salt";
+}
 footer, footer h3, footer a, footer a:hover {
     background-color: grey ;
     color: #d9c2a3;
@@ -46,7 +51,8 @@ nav a {
     text-decoration: none;
 }
 .home-title {
-    color: #d9c2a3
+    color: #d9c2a3;
+    font-family: "Rock Salt";
 }
 h4 {
     color: #d9c2a3;
